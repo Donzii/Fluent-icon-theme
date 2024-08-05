@@ -3,7 +3,7 @@
 if [ ${UID} -eq 0 ]; then
   DEST_DIR="/usr/share/icons"
 else
-  DEST_DIR="${HOME}/.local/share/icons"
+  DEST_DIR="${HOME}/.icons"
 fi
 
 readonly SRC_DIR=$(cd $(dirname $0) && pwd)
