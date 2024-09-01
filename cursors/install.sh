@@ -7,7 +7,7 @@ DEST_DIR=
 if [ "$UID" -eq "$ROOT_UID" ]; then
   DEST_DIR="/usr/share/icons"
 else
-  DEST_DIR="$HOME/.local/share/icons"
+  DEST_DIR="$HOME/.icons"
 fi
 
 if [ -d "$DEST_DIR/Fluent-cursors" ]; then
